@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>encuesta2</title>
+	<link rel="stylesheet" type="text/css" href="encuesta.css">
+	<script src="https://kit.fontawesome.com/b4a5cd7df5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+        <div class="container1">
+            <a href="../inicio.html" class="logo">
+                <img src="images.jpg" alt="Logo del Comercio/Empresa">
+            </a>
+            <nav>
+                <ul>
+                    
+                    <li><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="encuesta1.html">Encuesta 1</a></li>
+                    <li><a href="#">Encuesta 2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+    	<div class="parra4">
+    		<h2>¿Qué es lo que Más te Gusta de los Dispositivos Celulares?</h2>
+    		<p>Queremos conocer tu opinión sobre las características que más valoras en los dispositivos celulares. Completa esta encuesta y comparte con nosotros lo que más te gusta.</p>
+    	</div>
+        <div class="container">
+    <h2>Encuesta de Preferencias de Celulares</h2>
+    <form action="submit_survey.php" method="post">
+        <label for="caracteristica_favorita">¿Qué característica de los celulares es la más importante para ti?</label>
+        <select id="caracteristica_favorita" name="caracteristica_favorita">
+            <option value="camara">Cámara</option>
+            <option value="bateria">Duración de la Batería</option>
+            <option value="rendimiento">Rendimiento</option>
+            <option value="diseno">Diseño</option>
+            <option value="precio">Precio</option>
+        </select>
+
+        <label for="uso_principal">¿Para qué utilizas más tu celular?</label>
+        <select id="uso_principal" name="uso_principal">
+            <option value="comunicacion">Comunicación</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="entretenimiento">Entretenimiento</option>
+            <option value="fotografia">Fotografía</option>
+            <option value="redes_sociales">Redes Sociales</option>
+        </select>
+
+        <label for="gusto">¿Qué es lo que más te gusta de tu celular actual?</label>
+        <textarea id="gusto" name="gusto" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea>
+
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+</div>
+<footer>
+        <div class="fin">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+
+    <p>&copy; 2024 ServiTech. Todos los derechos reservados.</p>
+    </div>
+    </footer>
+    
+</body>
+</html>

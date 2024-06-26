@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>encuesta1</title>
+	<link rel="stylesheet" type="text/css" href="encuesta.css">
+	<script src="https://kit.fontawesome.com/b4a5cd7df5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+        <div class="container1">
+            <a href="../inicio.html" class="logo">
+                <img src="images.jpg" alt="Logo del Comercio/Empresa">
+            </a>
+            <nav>
+                <ul>
+                    
+                    <li><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="#">Encuesta 1</a></li>
+                    <li><a href="encuesta2.html">Encuesta 2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+    	<div class="parra4">
+    		<h2>¿Qué Podemos Mejorar en ServiTech?</h2>
+    		<p>Queremos saber tu opinión para seguir mejorando nuestros servicios. Por favor, dedica unos minutos a completar esta encuesta y cuéntanos qué podemos mejorar en ServiTech.</p>
+    	</div>
+  <div class="container">
+    <h2>Encuesta de Satisfacción</h2>
+    <form action="submit_survey.php" method="post">
+        <label for="satisfaccion">¿Estás satisfecho con el tiempo de reparación?</label>
+        <select id="satisfaccion" name="satisfaccion">
+            <option value="muy_satisfecho">Muy satisfecho</option>
+            <option value="satisfecho">Satisfecho</option>
+            <option value="neutral">Neutral</option>
+            <option value="insatisfecho">Insatisfecho</option>
+        </select>
+
+        <label for="comunicacion">¿Cómo calificarías la comunicación con nuestro equipo?</label>
+        <select id="comunicacion" name="comunicacion">
+            <option value="excelente">Excelente</option>
+            <option value="buena">Buena</option>
+            <option value="regular">Regular</option>
+            <option value="mala">Mala</option>
+        </select>
+
+        <label for="mejora">¿Qué aspecto crees que deberíamos mejorar?</label>
+        <textarea id="mejora" name="mejora" rows="4" cols="50" placeholder="Escribe tus sugerencias aquí..."></textarea>
+
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+</div>
+<footer>
+        <div class="fin">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+
+    <p>&copy; 2024 ServiTech. Todos los derechos reservados.</p>
+    </div>
+    </footer>
+  	
+</body>
+</html>

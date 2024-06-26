@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registro</title>
+	<link rel="stylesheet" type="text/css" href="rstyle.css">
+	<script src="https://kit.fontawesome.com/b4a5cd7df5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+        <div class="container1">
+            <a href="../inicio.html" class="logo">
+                <img src="images.jpg" alt="Logo del Comercio/Empresa">
+            </a>
+            <nav>
+                <ul>
+                    
+                    <li><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="encuesta1.html">Encuesta 1</a></li>
+                    <li><a href="encuesta2.html">Encuesta 2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="texto">
+    	<div class="parra3">
+    		<h3>¡Regístrate en ServiTech y Descubre Grandes Sorpresas!</h3>
+    		<p>En ServiTech, siempre estamos buscando formas de ofrecerte más y mejores servicios. Nos complace invitarte a registrarte en nuestro sitio web y unirte a nuestra comunidad exclusiva. Al completar nuestro sencillo formulario de registro, podrás disfrutar de numerosos beneficios.</p>
+    	</div>
+    </section>
+
+    <section id="formulario">
+    	<div class="container">
+    <h1>Formulario de Registro</h1>
+    <form action="/submit-form" method="post">
+        <div class="form-row">
+            <div class="form-group">
+                <input type="url" id="website" name="website" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Apellido" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Numero de celular" required>
+            </div>
+        </div>
+        <div class="form-group full-width">
+            <textarea id="message" name="message" rows="4" placeholder="Mensaje" required></textarea>
+        </div>
+        <div class="form-group full-width">
+            <select id="option" name="option" required>
+                <option value="" disabled selected>Seleccione una Provincia</option>
+                <option value="option1">La Rioja </option>
+                <option value="option2">Catamarca</option>
+                <option value="option3">San Juan</option>
+            </select>
+        </div>
+        <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+            <button type="reset" class="reset">Restablecer</button>
+        </div>
+    </form>
+</div>
+    </section>
+
+    <footer>
+        <div class="fin">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+
+    <p>&copy; 2024 ServiTech. Todos los derechos reservados.</p>
+    </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2, h3{
+    font-family: Anton Static;
+    font-size: 30px;
+}
+
+body{
+    background-color: black;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.titulo{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+
+}
+#servicios{
+    display: flex;
+}
+
+
+
+.parrafos{
+    margin-top: 70px;
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+.parrafos img{
+    height: 250px;
+    padding-left: 50px;
+}
+.parrafos{
+    font-size: 15px;
+}
+
+.punto{
+    color: blue;
+    font-size: 25px;
+}
+
+.titulo2{
+    color: white;
+    margin-top: 50px;
+    text-align: center;}
+
+
+.parrafos2{
+    color: white;
+    margin-top: 90px;
+    
+    width: 400px;
+    margin-left: 150px;
+
+}
+.parrafos2 img{
+    padding-top: 20px;
+    width: 230px;
+    padding-left: 50px;
+}
+
+.parrafos3{
+    display: flex;
+}
+
+
+
+#noticia{
+    background-color: gray;
+    height: 700px;
+}
+.titulo3{
+    color: white;
+    margin-top: 90px;
+    padding-left: 30px;
+}
+
+.noti{
+    color: white;
+    margin-top: 40px;
+}
+.noti1 p{
+    margin-top: 20px;
+
+}
+#noticias{
+    width: 50%;
+    padding-left:20px ;
+
+}
+
+#publicidad{
+    position: relative;
+    left: 700px;
+    bottom: 550px;
+
+}
+
+.publicidad1{
+    width:40%;
+
+}
+.publicidad1 p{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.publicidad1 a{
+    color: blue;
+}
+.lista h4 {
+    margin-top: 20px;
+}
+.lista li{
+    margin-top: 20px;
+
+}
+.lista ul{
+    padding-left: 40px;
+
+
+}
+#publicidad{
+    border-style: groove;
+    width: 47%;
+    border-color: blue;
+    border-radius: 15px;
+
+}
+
+#ff{
+    background-color: blue;
+}
+
+.info{
+    
+    text-decoration: none;
+    color: blue;
+    padding-left: 180px;
+    
+}
+.infor{
+    margin-top: 20px;
+}
+
+footer{
+background-color:#333333 ;
+height: 150px;
+}
+
+.fin p{
+    text-align: right;
+    padding-top: 55px;
+}
+
+.fin {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.fin a{
+    font-size: 30px;
+    margin: 10px;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    #publicidad {
+        width: 100%;
+        padding: 10px;
+    }
+}
